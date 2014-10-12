@@ -16,16 +16,11 @@
     margin-top: -43px;
 }
 
-a:hover {
-    color: black;
-    text-deocation: none;
-}
-
 .content {
     width: 700px;
     height: 400px;
     margin: 0 auto;
-    margin-top: 75px;
+    margin-top: 68px;
     border: 1px solid black;
     border-radius: 5px;
 }
