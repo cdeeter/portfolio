@@ -12,43 +12,46 @@
 }
 
 .content {
-    width: 700px;
+    width: 800px;
     height: 400px;
     margin: 0 auto;
     margin-top: 68px;
-    border: 1px solid black;
+    border: 5px dotted #dbb8ff;
     border-radius: 5px;
+    background-color: ;
 }
 
 .text{
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 18px;
 }
 
 .about-text {
     position: relative;
     display: inline;
-    width: 350px;
+    width: 400px;
     float: right;
-    padding: 20px;
+    padding: 15px;
     margin-right: 20px;
-    margin-top: 15px;
-    background-color: #DBB8FF;
 }
+
+h1 {
+    text-align: center;
+}
+
 
 .image {
     position: relative;
     display: inline;
     border: 1px solid black;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     float: left;
     margin-left: 60px;
     margin-top: 30px;
     text-align: center;
     padding-top: 90px;
-    background-color: #EDDCFF;
 }
 
 .top-swirl {
@@ -57,7 +60,7 @@
     width: 150px;
     float: left;
     margin-top: -80px;
-    margin-left: -152px;
+    margin-left: -155px;
 }
 
 .bottom-swirl {
@@ -66,6 +69,6 @@
     width: 150px;
     float: right;
     margin-top: 280px;
-    margin-left: 440px;
+    margin-left: 485px;
 }
 
