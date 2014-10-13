@@ -36,6 +36,11 @@
     overflow: auto;
 }
 
+.logo-mobile {
+    height: 100px;
+    width: 310px;
+}
+
 .abt-text{
     padding: 30px;
 }
