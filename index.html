@@ -9,11 +9,12 @@
     <script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="php/mailer.php"></script>
 </head>
 <body>
     <div class="container">
         <div class="logo hidden-xs">
-            <img src="" class="image pull-left" alt=""> &nbsp; &nbsp;
+            <img src="" class="image pull-left" alt="img"> &nbsp; &nbsp;
             <img src="imgs/logo.jpg" alt="logo">
         </div>
         
@@ -34,7 +35,7 @@
             <div class="tab-content">
                 <div id="tab1" class="tab-pane active ">
                     <h1>About Me</h1>
-                    <p class="abt-text">I'm a passionate front-end web developer located in Oakland, California.<br/><br/> I develop responsive web pages that look appealing in all devices, from a desktop computer to a mobile device.<br/></br/>I have experience with: HTML, CSS, and JavaScript (including jQuery and AJAX).</p>
+                    <p class="abt-text">I'm a passionate front-end web developer located in Oakland, California.<br/><br/> I develop responsive web pages that look appealing in all devices, from a desktop computer to a mobile device.<br/><br/>I have experience with: HTML, CSS, and JavaScript (including jQuery and AJAX).</p>
                 </div>
                 <div class="clearfix"></div>
             
@@ -43,34 +44,34 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
                             <div class="thumbnail">
-                                <a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><img src="imgs/flickr.jpg" alt="Flickr photo finder">
+                                <a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><img src="imgs/flickr.jpg" alt="Flickr photo finder"></a>
                                     <div class="caption">
-                                        <h4>Flickr Photo Finder</h4></a>
+                                        <a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><h4>Flickr Photo Finder</h4></a>
                                         <p>Search a tag and get the most recent photos uploaded to Flickr.</p>
                                     </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="thumbnail">
-                                <a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><img src="imgs/hot-cold.jpg" alt="...">
+                                <a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><img src="imgs/hot-cold.jpg" alt="..."></a>
                                     <div class="caption">
-                                        <h4>Hot or Cold Game</h4></a>
+                                        <a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><h4>Hot or Cold Game</h4></a>
                                         <p>A number guessing game starring Olaf from the Disney movie "Frozen".</p>
                                     </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="thumbnail">
-                                <a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><img src="imgs/asd-quiz.jpg" alt="Autism Quiz">
+                                <a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><img src="imgs/asd-quiz.jpg" alt="Autism Quiz"></a>
                                     <div class="caption">
-                                        <h4>Autism Quiz</h4></a>
+                                        <a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><h4>Autism Quiz</h4></a>
                                         <p>This quiz was created to help spread awareness about Autism, inspired by my past work in Special Education.</p>
                                     </div>
                             </div>
                         </div>
                     </div>
                     
-                    Check out <a href="http://github.com/cdeeter" alt="github">my Github</a> for more projects!
+                    Check out <a href="http://github.com/cdeeter">my Github</a> for more projects!
                 </div>
                 <div class="clearfix"></div>
                 
@@ -106,29 +107,29 @@
 <!---For mobile device viewing-->
     <div class="visible-xs">
         <div class="logo">
-            <img src="" class="image pull-left" alt=""> &nbsp; &nbsp;
+            <img src="" class="image pull-left" alt="img"> &nbsp; &nbsp;
             <img src="imgs/logo.jpg" class="logo-mobile" alt="logo">
         </div>
         <div id="mobile">
         <h1>About Me</h1>
-                    <p class="abt-text">I'm a passionate front-end web developer located in Oakland, California.<br/><br/> I develop responsive web pages that look appealing in all devices, from a desktop computer to a mobile device.<br/></br/>I have experience with: HTML, CSS, and JavaScript (including jQuery and AJAX).</p>
+                    <p class="abt-text">I'm a passionate front-end web developer located in Oakland, California.<br/><br/> I develop responsive web pages that look appealing in all devices, from a desktop computer to a mobile device.<br/><br/>I have experience with: HTML, CSS, and JavaScript (including jQuery and AJAX).</p>
         <h1>My Work</h1>
             <div class="row">
                 <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"><a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><img src="imgs/flickr.jpg" alt="Flickr photo finder">
-                        <div class="caption"><h4>Flickr Photo Finder</h4></a><p>Search a tag and get the most recent photos uploaded to Flickr.</p>
+                    <div class="thumbnail"><a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><img src="imgs/flickr.jpg" alt="Flickr photo finder"></a>
+                        <div class="caption"><a href="http://cdeeter.github.io/Flickr-photo-finder/" target="_blank"><h4>Flickr Photo Finder</h4></a><p>Search a tag and get the most recent photos uploaded to Flickr.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"><a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><img src="imgs/hot-cold.jpg" alt="...">
-                        <div class="caption"><h4>Hot or Cold Game</h4></a><p>A number guessing game starring Olaf from the Disney movie "Frozen".</p>
+                    <div class="thumbnail"><a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><img src="imgs/hot-cold.jpg" alt="..."></a>
+                        <div class="caption"><a href="http://cdeeter.github.io/hot-or-cold-revamp/" target="_blank"><h4>Hot or Cold Game</h4></a><p>A number guessing game starring Olaf from the Disney movie "Frozen".</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"><a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><img src="imgs/asd-quiz.jpg" alt="Autism Quiz">
-                        <div class="caption"><h4>Autism Quiz</h4></a><p>This quiz was created to help spread awareness about Autism, inspired by my past work in Special Education.</p>
+                    <div class="thumbnail"><a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><img src="imgs/asd-quiz.jpg" alt="Autism Quiz"></a>
+                        <div class="caption"><a href="http://cdeeter.github.io/ASD-quiz/" target="_blank"><h4>Autism Quiz</h4></a><p>This quiz was created to help spread awareness about Autism, inspired by my past work in Special Education.</p>
                         </div>
                     </div>
                 </div>
