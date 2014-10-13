@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Celia Deeter</title>
+	<title>Celia Deeter's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/my-style.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-1.11.1.js"></script>
 </head>
 <body>
     <div class="container">
@@ -78,12 +77,32 @@
             
                 <div id="tab3" class="tab-pane">
                     <h1>Contact Me</h1>
+                    <form id="ajax-contact" method="post" action="mailer.php">
+                        <div class="field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <div class="field">
+                        <button type="submit">Send</button>
+                    </div>
+                    </form>
                 </div>
         
             
             
 <!---For mobile device viewing-->
-    <div class="visible-xs">
+    <div class="small-content visible-xs">
     <div class="clearfix"></div>
         <h1>My Work</h1>
             <div class="row">
