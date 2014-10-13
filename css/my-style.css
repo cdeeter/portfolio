@@ -23,8 +23,17 @@
     text-align: center;
 }
 
-.small-content {
-    overflow-y: auto; 
+#mobile {
+    width: 100%;
+    height: 425px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 5px dotted #dbb8ff;
+    border-radius: 5px;
+    background-color: #F8F1FF;
+    font-size: 18px;
+    text-align: center;
+    overflow: auto;
 }
 
 .abt-text{
@@ -54,7 +63,7 @@
     margin-top: 10px;
 }
 
-.top-swirl {
+.left-swirl {
     position: relative;
     height: 150px;
     width: 150px;
@@ -63,7 +72,7 @@
     margin-left: -170px;
 }
 
-.bottom-swirl {
+.right-swirl {
     position: relative;
     height: 150px;
     width: 150px;
