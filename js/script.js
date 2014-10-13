@@ -31,3 +31,4 @@ $(function() {
             $(formMessages).text('Oops! An error occured and your message cannot be sent.');
         }
     });
+});
