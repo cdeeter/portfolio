@@ -32,3 +32,20 @@ $(function() {
         }
     });
 });
+
+
+
+
+$(document).ready(function() {
+    $(".right").click(function() {
+        $(".work1").hide();
+        $(".work2").fadeIn();
+    });
+    
+    $(".left").click(function() {
+        $(".work2").hide();
+        $(".work1").fadeIn();
+    });
+    
+    
+});
