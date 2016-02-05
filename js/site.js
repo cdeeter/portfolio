@@ -3,7 +3,7 @@ $(document).ready(function() {
     // DOM nodes
     var link = $("a");
     var body = $("html, body");
-    var quote = $(".quote");
+    var quote = $("#quote");
     
     // Quotes
     var quotes = [
