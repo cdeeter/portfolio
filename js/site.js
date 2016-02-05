@@ -23,7 +23,7 @@ $(document).ready(function() {
     // Get the random quote
     var randomQuote = "\"" + quotes[randomNum].quote + "\"<br/> - " + quotes[randomNum].author;
     
-    // Add the random quote to the DOM and fade it in after 2 seconds
+    // Add the random quote to the DOM
     quote.html(randomQuote);
     
     // Smooth scroll to the section clicked
